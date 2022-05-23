@@ -1,0 +1,18 @@
+En el stadium hay un partido importante y se pone a venta las entradas
+
+Equipo Local nombre, numero integrantes, ranking
+Equipo visitante nombre, numero integrantes, ranking
+Numero de asiento
+Fecha
+Lugar -> nombre, capacidad
+Precio
+Persona -> nombre, ci
+
+Crear varias entradas
+
+Clases:
+IEntrada -> PrototypeClon
+Entrada -> Concrete Prototype
+Equipo
+Stadium
+Persona
