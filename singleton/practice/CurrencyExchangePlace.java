@@ -1,4 +1,4 @@
-package singleton.practica;
+package singleton.practice;
 
 import java.text.DecimalFormat;
 

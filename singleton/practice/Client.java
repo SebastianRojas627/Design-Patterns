@@ -1,4 +1,4 @@
-package singleton.practica;
+package singleton.practice;
 
 public class Client {
 
