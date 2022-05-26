@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Interpreter extends OperationM {
+
     private List<OperationM> grammar = new ArrayList<>();
     private Context context;
 
@@ -21,8 +22,6 @@ public class Interpreter extends OperationM {
                 default:
                     grammar.add(new Number(charOriginal.length()));
                     break;
-
-
             }
         }
     }

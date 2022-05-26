@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NonTerminalExpressionParser extends AbstractExpression {
+
     private List<AbstractExpression> grammar = new ArrayList<>();
     private Context context;
 
@@ -29,8 +30,6 @@ public class NonTerminalExpressionParser extends AbstractExpression {
                     break;
                 default:
                     break;
-
-
             }
         }
     }
