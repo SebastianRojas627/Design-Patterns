@@ -9,15 +9,15 @@ public class Client {
         Persona[] p3 = new Persona[52];
 
         for (int i = 0; i < p1.length; i++) {
-            p1[i] = new Persona(123456, "Nombre Prueba" , i + 10);
+            p1[i] = new Persona(123456, "Nombre Prueba" , 60 - i);
         }
 
         for (int i = 0; i < p2.length; i++) {
-            p2[i] = new Persona(123456, "Nombre Prueba" , i + 10);
+            p2[i] = new Persona(123456, "Nombre Prueba" , 60 - i);
         }
 
         for (int i = 0; i < p3.length; i++) {
-            p3[i] = new Persona(123456, "Nombre Prueba" , i + 10);
+            p3[i] = new Persona(123456, "Nombre Prueba" , 60 - i);
         }
 
         SortManager manager = new SortManager();
